@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <LangVersion>12.0</LangVersion>
+        <TargetFramework>net8.0</TargetFramework>
+        <IsPublishable>true</IsPublishable>
+        <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Test2\Test2.csproj" />
+        <ProjectReference Include="..\Test3\Test3.csproj" />
+    </ItemGroup>
+
+</Project>
